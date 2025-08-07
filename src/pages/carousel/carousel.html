@@ -1,0 +1,16 @@
+<p> hello</p>
+
+<c-carousel [interval]="0">
+  <c-carousel-inner>
+      <!--<c-carousel-item>
+        <p> hello</p>
+      </c-carousel-item>-->
+      <c-carousel-item *ngFor="let slide of slides; let index = index" [active]="true">
+        <img src="../../public/favicon.ico">
+      </c-carousel-item>
+  </c-carousel-inner>
+  <c-carousel-control [routerLink] caption="Previous" direction="prev" />
+  <c-carousel-control [routerLink] caption="Next" direction="next" />
+</c-carousel>
+
+<p> bye</p>
