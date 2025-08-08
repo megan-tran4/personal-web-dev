@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-image: url(https://media.istockphoto.com/id/2151246999/vector/vr-hud-futuristic-interface-grid-digital-ui-screen-mesh-pattern-gui-hi-tech-visor-backdrop.jpg?s=612x612&w=0&k=20&c=JKWysqzog19JAbPlWTz6AUHIGAKtFbMogyazjsZzjj8=);
+  display: flex;
+}
+
+.example-container {
+  width: 400px;
+  height: 200px;
+  margin: 12px;
+  border: 1px solid #555;
+}
+

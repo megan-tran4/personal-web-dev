@@ -1,0 +1,13 @@
+.card-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+   padding: 1rem;
+}
+
+h2 {
+    color: rgb(247, 140, 121);
+}

@@ -1,0 +1,7 @@
+<div class="">
+<h2> Projects </h2>
+
+<div class="card-container"  *ngFor="let card of slides; let i = index">
+  <app-card class="card" [title]="card.title" [date]="card.date" [description]="card.description" [link]="card.link"></app-card>
+</div>
+</div>

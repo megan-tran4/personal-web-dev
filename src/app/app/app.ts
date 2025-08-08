@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Carousel } from '../../pages/carousel/carousel';  
+import { Intro } from '../../pages/intro/intro';
+import { Frameworks } from '../../pages/frameworks/frameworks';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [Carousel, Intro, Frameworks],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
