@@ -1,0 +1,14 @@
+.card {
+    width: 25rem;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+    background-color: rgb(182, 208, 255);
+    color: rgb(100, 1, 100);
+    border-radius: 20px;
+}
+
+h2 {
+    color: Lavender;
+}

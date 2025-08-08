@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Carousel } from './carousel';
+import { Frameworks } from './frameworks';
 
-describe('Carousel', () => {
-  let component: Carousel;
-  let fixture: ComponentFixture<Carousel>;
+describe('Frameworks', () => {
+  let component: Frameworks;
+  let fixture: ComponentFixture<Frameworks>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Carousel]
+      imports: [Frameworks]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Carousel);
+    fixture = TestBed.createComponent(Frameworks);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -21,4 +21,3 @@ describe('Carousel', () => {
     expect(component).toBeTruthy();
   });
 });
-
